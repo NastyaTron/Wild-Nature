@@ -2,168 +2,127 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wild Nature</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" crossorigin href="/Wild-Nature/assets/index-CNs2IBy0.css">
+    <title>Vanilla App Template</title>
+    <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-DvPDDfy5.css">
   </head>
   <body>
-    <section class="main-page">
-  <h1>Wild Nature</h1>
-  <p class="text">Тури для всіх курортних країн і не тільки</p>
-</section>
-
-    <section class="container about-us">
-  <h2>Трохи про нас</h2>
-  <hr style="border-top: 3px double #d92975; margin: 20px auto; width: 21%" />
-  <p>
-    Ми невелика компанія, яка виконує свою роботу на всі 100% і залишає кожного
-    клієнта задоволеним. Ми надаємо тури практично у всі курортні країни світу.
-    Крім того, ми також займаємося організацією екскурсій та путівок багатьма
-    містами України.
-  </p>
-  <h2>Ми працюємо з великими компаніями</h2>
-  <hr style="border-top: 3px double #d92975; margin: 20px auto; width: 65%" />
-  <div>
-    <svg class="icon">
-      <use href="/Wild-Nature/assets/sprite-htyeFRXo.svg#icon-undraw_through-the-park_xcqx"></use>
-    </svg>
-    <svg class="icon">
-      <use href="/Wild-Nature/assets/sprite-htyeFRXo.svg#icon-undraw_connected-world_anke"></use>
-    </svg>
-    <svg class="icon">
-      <use href="/Wild-Nature/assets/sprite-htyeFRXo.svg#icon-undraw_nature_yf30"></use>
-    </svg>
-    <svg class="icon">
-      <use href="/Wild-Nature/assets/sprite-htyeFRXo.svg#icon-undraw_working-from-anywhere_33m9"></use>
-    </svg>
+    <header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="nav-logo" href="./index.html" aria-label="Site logo">
+        <svg class="nav-logo-icon" width="100" height="30">
+          <use href="/vanilla-app-template/assets/sprite-E8vg0sBb.svg#logo"></use>
+        </svg>
+      </a>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        </li>
+      </ul>
+    </nav>
   </div>
-</section>
+</header>
 
-    <section class="container reason">
-  <h2>Чому варто працювати з нами?</h2>
-  <hr
-    style="border-bottom: 3px double aliceblue; width: 30%; margin: 20px auto"
-  />
-  <p>
-    Наша компанія вже не перший рік на ринку і ми точно знаємо як варто
-    організовувати путівку, щоб вона сподобалася кожному, хто бере участь у ній.
-  </p>
-  <p>
-    Ми пропонуємо широкий спектр різних путівок та екскурсій, які не змусять вас
-    сумувати чи піклуватися про що-небудь у ході путівки.
-  </p>
-</section>
 
-    <section class="container proposition">
-  <h2>Що ми пропонуємо?</h2>
-  <hr style="border-top: 3px double #d92975; width: 30%; margin: 20px auto" />
-  <div class="list-card">
-    <div class="card">
-      <svg class="icon">
-        <use href="/Wild-Nature/assets/symbol-defs-X4eiMLU6.svg#icon-undraw_aircraft_usu4"></use>
-      </svg>
-      <p class="title">Організація перельоту</p>
-      <p class="text">
-        Ми підбираємо для вас комфортні літаки із зручним вильотом вдень. Також
-        спеціально для нас ціни на квитки знижено на 20%
-      </p>
+    <main>
+      <!-- Loads the specified .html file -->
+      <section class="vite-promo">
+  <div class="container">
+    <div class="vite-promo-thumb">
+      <a
+        class="vite-promo-link"
+        href="https://vitejs.dev/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Link to Vite official website"
+        title="Vite.js  build tool"
+      >
+        <!-- Path to images as from index.html file -->
+        <img
+          class="pic"
+          src="/vanilla-app-template/assets/vite-logo-9o_aqrTe.png"
+          alt="Vite logo"
+          width="640"
+          height="640"
+        />
+      </a>
     </div>
-    <div class="card">
-      <svg>
-        <use href="/Wild-Nature/assets/symbol-defs-X4eiMLU6.svg#icon-undraw_travel-mode_ydxo"></use>
-      </svg>
-      <p class="title">Пошук готелів</p>
-      <p class="text">
-        Ми займаємося заселенням тільки в найкращі готелі за найкращими цінами.
-        Якість послуг у готелях та самі готелі виконані найкращим чином.
-      </p>
-    </div>
-    <div class="card">
-      <svg>
-        <use href="/Wild-Nature/assets/symbol-defs-X4eiMLU6.svg#icon-undraw_travel-together_uhlf"></use>
-      </svg>
-      <p class="title">Екскурсії та розваги</p>
-      <p class="text">
-        Екскурсії та розваги важлива частина відпочинку. Ми підібрали для вас
-        найкращі екскурсії та заходи, які ви можете відвідати.
-      </p>
-    </div>
+    <h1 class="main-title">
+      <span class="main-title-gradient">Vite</span>
+      Template by
+      <a
+        class="main-title-link"
+        href="https://github.com/goitacademy/vanilla-app-template"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GoIT
+      </a>
+    </h1>
   </div>
 </section>
 
-    <section class="container feedback">
-  <h2 class="title">У вас залишились запитання?</h2>
-  <hr
-    style="border-bottom: 3px double aliceblue; width: 30%; margin: 20px auto"
-  />
-  <p class="text">Залишіть заявку і ми передзвонимо вам</p>
-  <form>
-    <input type="tel" name="telephone" placeholder="Телефон" />
-    <input type="email" name="email" placeholder="Email" />
-    <button type="submit">Залишити заявку</button>
-  </form>
-</section>
-
-    <section class="container order">
-  <h2>Замовте путівку прямо зараз</h2>
-  <hr style="border-top: 3px double #d92975; width: 30%; margin: 20px auto" />
-  <ul>
-    <li class="card">
-      <h4><b>Тільки переліт</b></h4>
-      <h5>від 100$</h5>
-      <p class="order-text">
-        Якщо ви вже обрали готелі, ми організуємо для вас переліт за нижчими
-        цінами
-      </p>
-      <button type="submit">Придбати</button>
-    </li>
-    <li class="card center">
-      <h4><b>Переліт та готель</b></h4>
-      <h5>від 150$</h5>
-      <p class="order-text">
-        Ми візьмемо всі обов'язки по перельту та готелю на себе, вам же
-        залишиться лише знайти екскурсії або просто подорожувати самостійно.
-      </p>
-      <button type="submit">Придбати</button>
-    </li>
-    <li class="card">
-      <h4><b>Все включено</b></h4>
-      <h5>від 250$</h5>
-      <p class="order-text">
-        Ви просто хочете відпочити та більше ні про що не думати? Цей варіант
-        спеціально для вас!
-      </p>
-      <button type="submit">Придбати</button>
-    </li>
-  </ul>
-</section>
-
-    <footer class="container footer">
-  <div class="item-card">
-    <svg width="60px" height="60px">
-      <use href="/Wild-Nature/assets/footer-BrR-grOO.svg#icon-phone"></use>
-    </svg>
-    <p><b>По всій території:</b> <br />00000000</p>
+      <article class="badges">
+  <div class="container">
+    <ul class="badges-list">
+      <li class="badges-item">
+        <a
+          class="badges-link"
+          href="https://www.npmjs.com/package/vite-plugin-html-inject"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          HTML Inject
+        </a>
+      </li>
+      <li class="badges-item">
+        <a
+          class="badges-link"
+          href="https://www.npmjs.com/package/vite-plugin-full-reload"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Full Reload
+        </a>
+      </li>
+      <li class="badges-item">
+        <a
+          class="badges-link"
+          href="https://www.npmjs.com/package/postcss-sort-media-queries"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Sort Media Queries
+        </a>
+      </li>
+    </ul>
   </div>
-  <div class="item-card">
-    <svg width="60px" height="60px">
-      <use href="/Wild-Nature/assets/footer-BrR-grOO.svg#icon-compass"></use>
-    </svg>
-    <p><b>Адреса:</b> <br />NY, вул. Весна 11/45</p>
-  </div>
-  <div class="item-card">
-    <svg width="60px" height="60px">
-      <use href="/Wild-Nature/assets/footer-BrR-grOO.svg#icon-envelop"></use>
-    </svg>
-    <p><b>Email:</b> <br />help@wild.nature</p>
+</article>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <p class="footer-desc">
+      Made with ✨ by
+      <a
+        class="footer-link"
+        href="https://goit.global/ua/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GoIT team
+      </a>
+    </p>
   </div>
 </footer>
+
 
   </body>
 </html>
