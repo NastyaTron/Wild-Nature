@@ -1,0 +1,32 @@
+.reason {
+  background-image: linear-gradient(
+      rgba(57, 57, 57, 0.7),
+      rgba(57, 57, 57, 0.7)
+    ),
+    url('/img/1503661795.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  background-attachment: fixed;
+  padding-bottom: 52px;
+  padding-top: 72px;
+  background-blend-mode: multiply;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
+}
+.reason h2,
+p {
+  text-align: center;
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  font-size: 52px;
+  color: aliceblue;
+  font-weight: 700;
+  margin: 0 auto;
+  width: 60%;
+}
+.reason p {
+  font-size: 20px;
+  margin-top: 36px;
+  font-weight: 100;
+  margin-bottom: 36px;
+}

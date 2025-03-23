@@ -1,0 +1,27 @@
+.main-page {
+  padding-top: 280px;
+  background-image: linear-gradient(
+      rgba(88, 88, 88, 0.4),
+      rgba(88, 88, 88, 0.4)
+    ),
+    url('/img/1503660831.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  background-blend-mode: multiply;
+}
+.main-page h1,
+.text {
+  text-align: center;
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  font-size: 84px;
+  color: aliceblue;
+  font-weight: 700;
+}
+.main-page .text {
+  font-size: 40px;
+  padding-top: 24px;
+  padding-bottom: 360px;
+  font-weight: 400;
+}

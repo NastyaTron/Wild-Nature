@@ -1,0 +1,66 @@
+.order {
+  padding: 44px;
+  width: 100%;
+}
+.order h2 {
+  text-align: center;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 5px;
+  margin: 16px;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+  flex: calc((100% - 24px) / 4);
+}
+.center {
+  background-color: rgb(230, 21, 80);
+  border-color: rgb(176, 2, 51);
+}
+
+.order-text {
+  font-size: 16px;
+  color: rgb(71, 71, 71);
+  line-height: 1.2;
+  font-weight: 100;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  width: 100%;
+}
+.center .order-text {
+  color: rgb(110, 0, 0);
+}
+
+.card > h4,
+.card > h5 {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  font-size: 30px;
+  color: rgb(66, 66, 66);
+  text-align: center;
+}
+.center > h4,
+.center > h5 {
+  color: aliceblue;
+}
+.card > button {
+  border-width: 0;
+  box-shadow: 0px 2px 8px -3px rgba(71, 71, 71, 0.98);
+  background-color: rgb(255, 97, 173);
+}
+.card > button:hover,
+:focus {
+  background-color: rgb(218, 42, 118);
+}
+.center button {
+  background-color: rgba(121, 31, 66, 0.627);
+}
+.center button:hover,
+:focus {
+  background-color: rgb(121, 31, 66);
+}

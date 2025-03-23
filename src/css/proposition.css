@@ -1,0 +1,31 @@
+.proposition {
+  display: inline;
+}
+.proposition h2 {
+  text-align: center;
+  padding-top: 60px;
+}
+.proposition .text {
+  font-size: 16px;
+  color: rgb(71, 71, 71);
+  text-align: center;
+  line-height: 1.2;
+  margin: 0;
+  font-weight: 100;
+}
+.proposition .title {
+  font-size: 24px;
+  color: rgb(71, 71, 71);
+  margin: 28px;
+}
+.list-card {
+  padding-top: 40px;
+  padding-bottom: 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,64 @@
+.feedback {
+  background-image: linear-gradient(
+      rgba(57, 57, 57, 0.7),
+      rgba(57, 57, 57, 0.7)
+    ),
+    url('/img/1503663056.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  padding: 60px;
+  width: 100%;
+}
+.feedback .title {
+  color: aliceblue;
+  font-size: 42px;
+  text-align: center;
+}
+.feedback .text {
+  font-size: 24px;
+  margin-top: 52px;
+}
+form {
+  margin: 36px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 12px;
+  max-width: 460px;
+}
+input {
+  width: 45%;
+  height: 40px;
+  border-radius: 20px;
+  color: aliceblue;
+  background-color: rgb(201, 95, 121);
+  border: 2px solid rgb(150, 44, 70);
+  padding: 10px;
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+}
+input::placeholder {
+  color: aliceblue;
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+}
+button {
+  width: 45%;
+  height: 40px;
+  background-color: rgb(226, 50, 126);
+  color: aliceblue;
+  border-radius: 20px;
+  padding: 10px 1px;
+  cursor: pointer;
+  border: 2px solid rgb(150, 44, 70);
+  box-shadow: 0px 2px 8px -3px rgba(71, 71, 71, 0.98);
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  min-width: 150px;
+}
+button:hover,
+:focus {
+  background-color: rgb(218, 42, 118);
+}
